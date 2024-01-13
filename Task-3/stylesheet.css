@@ -1,0 +1,120 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: grey;
+        margin: auto;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 0 auto;
+        font-family: algerian,Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+        background-color: gray;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        border-radius: 30px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: 5px 5px 10px black,
+            -5px -5px 5px rgb(28, 27, 27),
+            inset 5px 5px 10px black,
+            inset -5px -5px 10px black;
+    }
+
+    #timerInput {
+        background-color: rgb(68, 65, 72);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 10px black,
+            inset 5px 5px 10px grey,
+            inset -5px -5px 10px black;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #timerInput label {
+        text-align: center;
+        font-family: Broadway, Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-size: 1.4em;
+        background-image: linear-gradient(to right, cyan,red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    #timerInput input {
+        width: 35%;
+        text-align: center;
+        border-radius: 30px;
+        border: 3px inset gold;
+        background-color: cadetblue;
+        color: blue;
+        padding: 5px;
+        margin: 0 auto 10px auto;
+        font-weight: bold;
+    }
+
+    ::placeholder {
+        font-weight: bold;
+        color: rgb(106, 65, 65);
+    }
+
+    #timer {
+        background-color: white;
+        width: 40%;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px black,
+            inset 5px 5px 10px grey,
+            inset -5px -5px 10px black;
+        margin: 10px auto;
+        padding: 10px;
+        cursor: default;
+    }
+
+    button {
+        width: 20%;
+        height: 150%;
+        font-family: Broadway, Arial, Helvetica, sans-serif;
+        padding: 2px 5px;
+        box-shadow: 5px 5px 10px black,
+            -5px -5px 5px rgb(28, 27, 27),
+            inset 5px 5px 10px black,
+            inset -5px -5px 10px black;
+        border: none;
+        border-radius: 20px;
+        cursor: default;
+        transition: all 0.2s;
+    }
+
+    button:active {
+        transform: scale(0.8);
+        transition: all 0.1s;
+    }
+
+    button:hover {
+        transform: rotate(15deg);
+        background-color: red;
+        color: white;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
